@@ -2,6 +2,11 @@
 
 ## Nodes & TOXes
 
+### COMP
+
+**Set OP Color** (tox)
+Allow for changing the color of a node simply by dropping it on it while it is active. The colors can be personalized easily from inside the node.
+
 ### CHOP
 
 **Duplicate** (tox)
