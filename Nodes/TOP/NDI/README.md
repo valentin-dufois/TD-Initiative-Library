@@ -65,7 +65,7 @@ Provides a list with the name and URI of all the sources found. The sources name
 
 ## NDI In CHOP
 
-The `NDI In CHOP`
+The `NDI In CHOP` allows you to receive audio from any NDI source, not only from another TouchDesigner `NDI Out`.
 
 ### NDI In TOX
 
