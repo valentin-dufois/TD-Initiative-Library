@@ -15,27 +15,19 @@
 
 	Takes an CHOP input and duplicate and rename the specified channels with the specified new names.
 
-**Midi In** (Custom OP)
-
-	Gives MIDI events from a connected MIDI device.
-
 **Placeholder** (tox)
 
 	Provides default channels when they are missing.
 
 **TapTempo** (tox)
 
-	Takes an input pulse to set the project tempo and provides a beat on the calculated tempo. Suggested use : use a pulse coming from a MIDI device to set the tempo.
+	Takes an input pulse to set the project tempo and provides a beat on the calculated tempo that can be rounded at will.
 
-**Controller** (tox)
+**ChannelController** (tox)
 
-	Takes MIDI events from a connected MIDI device and allows to select specified channels, rename them, modify their range and apply lag.
+	Allows to select specified channels from its inputs, rename them, apply a specified logic behaviour, modify their range and apply lag.
 
-**Button** (tox)
-
-	Identical to the Controller tox, this one also allows to select the button behaviour.
-
-**Counter** (tox)
+**IndexCounter** (tox)
 
 	Takes two CHOP inputs (preferably normalized MIDI events) and use them to increment and decrement the index of a counter that you can set up. Suggested use : can be convenient to navigate through sources.
 
