@@ -57,3 +57,7 @@
 **RGB delay**
 
 	Delays the red, green blue layers of a TOP input.
+	
+**Jitter**
+
+	Add a Jitter effect to the given input TOP.
