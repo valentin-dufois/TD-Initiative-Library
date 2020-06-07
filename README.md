@@ -1,10 +1,12 @@
 # TD-Initiative-Library
 
+> Version Française disponible [ici](https://github.com/valentin-dufois/TD-Initiative-Library/wiki)
+
 The TD Initiative Library is a collection of TOXs and Projects for TouchDesigner whose purpose is to ease the creation of networks and showcase useful techniques.
 
 Nodes are made to be used as is, with custom parameters already prepared, but we strongly encourage you to take a look inside and changes them according to your needs.
 
-## Nodes & TOXes
+## Nodes & TOXs
 
 ### COMP
 
@@ -38,7 +40,7 @@ Useful for mapping MIDI, OSC, Serial, etc. channels to a specific behaviour. A u
 
 **IndexCounter** (tox)
 
-Takes two CHOP inputs (preferably normalized MIDI events) and use them to increase and decrease the index of a counter that you can set up. Suggested use: can be convenient to navigate through video sources.
+Takes two CHOP inputs (preferably normalized pulses events) and use them to increase and decrease the index of a counter that you can set up. Suggested use: can be convenient to navigate through video sources.
 
 **CHOPDisplace** (tox)
 
@@ -66,8 +68,8 @@ Allows to change the image tint using its luminance. Low luminance values will b
 
 **RGB Delay**
 
-Delays the red, green-blue layers of a TOP input. It is possible to specify the delay between each layer. Changing the delay order is not possible with the custom parameters, but can be done inside the node.  
+Delays the red, green and blue layers of a TOP input. It is possible to specify the delay between each layer. Changing the delay order is not possible with the custom parameters, but can be done inside the node.  
 
 **Jitter**
 
-Add a jitter effect to the given input TOP. The jitters effect simulates a shaking and duplication of the image according to a noise. It is possible to control on which axis the jittering occurs as well as other parameters on its behaviour.
+Add a jitter effect to the given input TOP. The jitters effectsimulates a shaking and duplication of the image according to a noise. It is possible to control on which axis the jittering occurs as well as other parameters on its behaviour.
